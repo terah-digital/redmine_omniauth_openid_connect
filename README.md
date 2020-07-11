@@ -4,6 +4,8 @@ This plugin is designed to authenticate Redmine users using an OpenID Connect pr
 
 This project was adapted from [redmine_omniauth_gitlab](https://github.com/applewu/redmine_omniauth_gitlab)
 
+Supported Version 4.x.x of Redmine (as of last commit, other version should work as well)
+
 ### Installation:
 
 Download the plugin and install required gems:
