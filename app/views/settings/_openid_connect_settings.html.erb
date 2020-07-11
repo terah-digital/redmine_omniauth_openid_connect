@@ -1,0 +1,38 @@
+<p>
+  <label>Authorize Url:</label>
+  <%= text_field_tag 'settings[authorize_url]', @settings[:authorize_url], size: 250, placeholder: 'e.g., https://auth.provider.com/connect/authorize' %>
+</p>
+<p>
+  <label>Token Url:</label>
+  <%= text_field_tag 'settings[token_url]', @settings[:token_url], size: 250, placeholder: 'e.g., https://auth.provider.com/connect/token' %>
+</p>
+<p>
+  <label>Api Url:</label>
+  <%= text_field_tag 'settings[api_url]', @settings[:api_url], size: 250, placeholder: 'e.g., https://auth.provider.com/connect/userinfo' %>
+</p>
+</br>
+<p>
+  <label>Oauth Authentication:</label>
+  <%= check_box_tag "settings[oauth_authentication]", true, @settings[:oauth_authentication] %>
+</p>
+<p>
+  <label>Client ID:</label>
+  <%= text_field_tag 'settings[client_id]', @settings[:client_id], size: 250, placeholder: 'e.g., test-client-id' %>
+</p>
+<p>
+  <label>Client Secret:</label>
+  <%= text_field_tag 'settings[client_secret]', @settings[:client_secret], size: 250 %>
+</p>
+<p>
+  <label>Scopes:</label>
+  <%= text_area_tag "settings[scope]", @settings[:scope], :rows => 1, placeholder: 'e.g., profile email openid' %>
+</p>
+<p>
+  <label>Allowed Domains:</label>
+  <%= text_area_tag "settings[allowed_domains]", @settings[:allowed_domains], size: "250x2", placeholder: 'e.g., gmail.com outlook.com fastmail.com' %>
+</p>
+</br>
+<p>
+  <label>Login Button Text:</label>
+  <%= text_field_tag 'settings[login_button_text]', @settings[:login_button_text], size: 250, placeholder: 'e.g., Login with OAuth' %>
+</p>

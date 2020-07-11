@@ -1,0 +1,5 @@
+en:
+  notice_unable_to_obtain_openid_connect_credentials: "Unable to obtain credentials from openid_connect."
+  notice_domain_not_allowed: "%{domain} domain is not allowed."
+  notice_access_denied: "You must allow to use you openid_connect credentials to enter this site."
+  login_via_openid_connect: "Login with OAuth"

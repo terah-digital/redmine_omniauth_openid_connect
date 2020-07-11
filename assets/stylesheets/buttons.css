@@ -1,0 +1,26 @@
+.button-login {
+    position: relative;
+    left: 42%;
+    display: inline-block;
+    border: 2px solid #474747;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #474747 !important;
+}
+
+.button-login-icon {
+    float: left;
+    display: none;
+    height: 18px;
+    padding: 1px 0 0 4px;
+}
+
+.button-login-text {
+    line-height: 21px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
