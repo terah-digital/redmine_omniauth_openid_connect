@@ -3,11 +3,11 @@ require_dependency 'redmine_omniauth_openid_connect/hooks'
 
 Redmine::Plugin.register :redmine_omniauth_openid_connect do
   name 'Redmine Omniauth OpenID Connect Plugin'
-  author 'Terah Digital'
+  author 'Elry'
   description 'This plugin enables login through OpenID Connect'
-  version '1.0.1'
+  version '1.0.2'
   url 'https://github.com/terah-digital/redmine_omniauth_openid_connect.git'
-  author_url 'https://terah.com.au'
+  author_url 'https://elry.com.au'
 
   settings :default => {
     :authorize_url => "",
